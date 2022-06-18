@@ -9,8 +9,9 @@
 > Otherwise it should return **false**.
 
 ```javascript
+//Comlete the function
 function myFunction(a, b) {
-  return;
+    return;
 }
 ```
 
@@ -31,8 +32,9 @@ myFunction("10", "10"); // return true
 > in that parameter:
 
 ```javascript
+//Comlete the function
 function myFunction(a) {
-  return;
+    return;
 }
 
 console.log(myFunction(1)); // number
@@ -66,7 +68,7 @@ object
 ```javascript
 //Comlete the function
 function myFunction(a, b, c, d, e, f) {
-  return;
+    return;
 }
 
 console.log(myFunction(6, 5, 4, 3, 2, 1)); // 10.5
@@ -101,12 +103,12 @@ The next operation always uses the result of the previous one.
 ```javascript
 //Comlete the function
 function myFunction(text, flag = "start") {
-  return;
+    return;
 }
 
 console.log(myFunction("abcdefg", "start")); // abc
 console.log(myFunction("abcdefg", "end")); // efg
-console.log(myFunction("abcdefg")); // ab
+console.log(myFunction("abcdefg")); // abc
 ```
 
 **Parameter with default value**
@@ -117,7 +119,9 @@ Therefore, the `console.log` ultimatum, which does not pass any value to **flag*
 has the same result as the first one. Because the **flag** has the value **"start"**
 by default.
 
-### 4. String manipulation (part 2)
+---
+
+### 5. String manipulation (part 2)
 
 > Write a function that takes two parameters (fullname, flag).
 > If the flag is set to "firstname", it should return only the first word of the fullname parameter.
@@ -127,7 +131,7 @@ by default.
 ```javascript
 //Comlete the function
 function myFunction(fullname, flag = "") {
-  return;
+    return;
 }
 
 console.log(myFunction("John Williams Smith", "firstname")); // John
@@ -136,7 +140,9 @@ console.log(myFunction("John Williams Smith")); // John Williams Smith
 console.log(myFunction("John", "lastname")); // John
 ```
 
-### 5. Numerical operations
+---
+
+### 6. Numerical operations
 
 > Write a function that takes a number as parameter.
 > If the number is even, returns **true** and if it's odd, returns **false**.
@@ -144,27 +150,112 @@ console.log(myFunction("John", "lastname")); // John
 ```javascript
 //Comlete the function
 function myFunction(num) {
-  return;
+    return;
 }
 
 console.log(myFunction(8)); // true
-console.log(myFunction(-10)); // false
-console.log(myFunction(7)); // true
+console.log(myFunction(-10)); // true
+console.log(myFunction(7)); // false
 console.log(myFunction(-41)); // false
 ```
 
-### 6. Frequency of a substring in a string
+---
+
+### 7. Frequency of a substring in a string
 
 > Write a function that takes two strings **(a,b)** as parameters and
-returns the number of times the string **a** is used within **b**.
+> returns the number of times the string **a** is used within **b**.
 
 ```javascript
 //Comlete the function
 function myFunction(a, b) {
-  return;
+    return;
 }
 
 console.log(myFunction("o", "Lorem ipsum dolor sit amet")); // 3
 console.log(myFunction("em", "Lorem ipsum dolor sit amet")); // 1
 console.log(myFunction("t", "Lorem ipsum dolor sit amet")); // 2
 ```
+
+---
+
+### 8. Arrays (removes elements of array)
+
+> Write a function that takes an array as a parameter and removes the first
+> 3 elements of the array. If the array has less than 3 elements, return an
+> empty array.
+
+```javascript
+//Comlete the function
+function myFunction(a) {
+    return;
+}
+
+console.log(myFunction([1, 2, 3, 4, 5])); // [4, 5]
+console.log(myFunction([5, 4, 3, 2, 1, 0])); // [2, 1, 0]
+console.log(myFunction([10, 20, 30])); // []
+console.log(myFunction([99, 100])); // []
+```
+
+---
+
+### 9. Arrays (delete a value from an array)
+
+> Write a function that takes an array **a** and a value **b** as parameters.
+> The function should remove all occurrences of **b** and return the filtered array.
+
+```javascript
+//Comlete the function
+function myFunction(a, b) {
+    return;
+}
+
+console.log(myFunction([1, 2, 3], 2)); // [1, 3]
+console.log(myFunction([1, 2, "3"], "3")); // [1, 2]
+console.log(myFunction(["1", false, 2, "3"], fasle)); // ['1', 2, '3']
+console.log(myFunction([5, 1, 2, 5, 3, 5], 5)); // [1, 2, 3]
+```
+
+---
+
+### 10. Arrays (sorting of arrays)
+
+> Write a function that takes an array **a** and an **order** flag with default
+> value **'asc'**. If the order value is **'asc'** return the ordered array in
+> ascending order and if it is **'desc'** return in descending order.
+
+```javascript
+//Comlete the function
+function myFunction(a, order = "asc") {
+    return;
+}
+
+console.log(myFunction([2, 3, 1], "asc")); // [1, 2, 3]
+console.log(myFunction([6, 2, 8, 1, 5], "desc")); // [8, 6, 5, 2, 1]
+console.log(myFunction(["green", "blue", "yellow"], "desc")); // ["yellow", "green", "blue"]
+```
+
+---
+
+### 11. Arrays (concatenation of arrays)
+
+> Write a function that takes two arrays as parameters.
+> Return a single array containing the values of the two arrays
+> concatenated, removing duplicate values, if any.
+
+```javascript
+//Comlete the function
+function myFunction(a, order = "asc") {
+    return;
+}
+
+console.log(myFunction([1, 2, , 3], [3, 4, 5])); // [1, 2, 3, 4, 5] 
+console.log(myFunction([6, 7], [8, 9])); // [6, 7, 8, 9]
+console.log(myFunction([-2, -1, 0, 1, 2], [-1, 1, 2, 3])); // [-2, -1, 0, 1, 2, 3] 
+```
+
+### 12. Arrays (concatenation of arrays)
+
+
+
+
